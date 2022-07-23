@@ -1,0 +1,39 @@
+<style>
+    button{
+        background-color: rgb(166, 33, 33);
+        color:white;
+        border: none;
+        height: 40px;
+        padding: 0px 20px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    button:active{
+        opacity:0.7;
+    }
+    button.subscribeButton{
+        background-color: white;
+        color: rgb(0, 145, 255);
+        border: solid 1px rgb(0, 145, 255);
+        border-radius: 4px;
+        transition: background-color 1s, color 1s;
+    }
+    button.subscribeButton:hover{
+        opacity:0.7;
+        background-color: rgb(0, 145, 255);
+        color: white;
+    }
+    button.uberButton{
+        background-color: black;
+        font-weight: 500;
+        color: white;
+        transition: box-shadow .5s; 
+    }
+    button.uberButton:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+</style>
+
+<button>SUBSCRIBE</button>
+<button class="subscribeButton">JOIN</button>
+<button class="uberButton">Request Now</button>
